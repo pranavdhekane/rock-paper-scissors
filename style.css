@@ -1,17 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: arial;
+    /* font-family: arial; */
 }
 
 header {
     height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #000;
     color: white;
     font-size: 8vmin;
+    line-height: 15vh;
+    text-align: center;
+}
+
+header b {
+    margin: 0 1vmin;
 }
 
 main{
@@ -76,10 +79,17 @@ main{
 footer {
     position: fixed;
     bottom: 0px;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     background-color: black;
     color: white;
-    line-height: 10vh;
+    line-height: 8vh;
     text-align: center;
+    font-size: 3vmin;
+}
+
+a{
+    margin: 0px 1vmin;
+    text-decoration: none;
+    color: white;
 }
